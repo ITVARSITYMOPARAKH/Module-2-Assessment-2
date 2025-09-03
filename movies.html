@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies - Pine City Mall</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .page-content {
+      padding-top: 300px; /* keeps content below fixed logo/header */
+      max-width: 900px;
+      margin: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .page-content h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .movie-card {
+      background-color: #111111;
+      border: 1px solid #333;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .movie-card img {
+      width: 120px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .movie-info {
+      padding: 15px;
+      flex: 1;
+    }
+
+    .movie-info h3 {
+      margin: 0 0 10px;
+      font-size: 1.4em;
+      color: #ffffff;
+    }
+
+    .movie-info p {
+      margin: 5px 0;
+      color: #cccccc;
+    }
+
+    .movie-info a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9em;
+      transition: background 0.3s;
+    }
+
+    .movie-info a:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: #111111;
+      color: #888888;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #333;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      .movie-card {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .movie-card img {
+        width: 100%;
+      }
+
+      .movie-info {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Fixed header/logo -->
+  <div id="header">
+    <img src="images/Black%20and%20White%20Minimalist%20Professional%20Initial%20Logo%20(1).png"/>
+  </div>
+
+  <!-- Tabs -->
+  <div id="tabs-top">
+    <a href="shops.html">SHOPS</a>
+    <a href="index.html">MAP</a>
+    <a href="movies.html">MOVIES</a>
+    <a href="home.html">HOME</a>
+  </div>
+
+  <!-- Page Content -->
+  <div class="page-content">
+    <h2>Now Showing</h2>
+
+    <!-- Movie 1 -->
+    <div class="movie-card">
+      <img src="images/Endgame-1.jpg" alt="Avengers Poster">
+      <div class="movie-info">
+        <h3>Avengers: Endgame</h3>
+        <p><strong>Actors:</strong> Robert Downey Jr., Chris Evans, Scarlett Johansson</p>
+        <p><strong>Age Restriction:</strong> 13+</p>
+        <a href="movies-1.html">View Details</a>
+      </div>
+    </div>
+
+    <!-- Movie 2 -->
+    <div class="movie-card">
+      <img src="images/frozen%20poster.jpg" alt="Frozen Poster">
+      <div class="movie-info">
+        <h3>Frozen II</h3>
+        <p><strong>Actors:</strong> Idina Menzel, Kristen Bell, Josh Gad</p>
+        <p><strong>Age Restriction:</strong> PG</p>
+        <a href="movies-2.html">View Details</a>
+      </div>
+    </div>
+
+    <!-- Movie 3 -->
+    <div class="movie-card">
+      <img src="images/john%20wick%20poster.jpeg" alt="John Wick Poster">
+      <div class="movie-info">
+        <h3>John Wick 4</h3>
+        <p><strong>Actors:</strong> Keanu Reeves, Donnie Yen, Bill Skarsgård</p>
+        <p><strong>Age Restriction:</strong> 18+</p>
+        <a href="movies-3.html">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Pine City Mall. All Rights Reserved.
+  </footer>
+
+  <!-- Bottom Tabs -->
+  <div id="tabs-bottom">
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+}
+
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 1000;
+      width   :100%;
+      height  :80px;
+      
+      background-repeat: repeat-x;
+}
+
+#header img {
+    width: 100%;       /* spans across full width */
+  height:250px ;      /* keeps proportions */
+  display: block;
+}
+
+
+
+/*===============TOP TABS==================*/
+
+
+#tabs-top{
+      position: fixed;
+      top     : 250px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: white;
+}
+
+#tabs-top  a{
+      float   : left;
+      display : block;
+      width   : 25%;
+      height  :35px;
+      font-weight : 700;
+      color       : black;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;  
+    
+    
+    
+    
+    
+}
+
+/*===============MAIN-HOME==================*/
+
+#main-home{
+       margin-top: 500px;
+    height: 400px;
+        width:100%;
+}
+
+
+
+
+
+/*===============BOTTOM-TABS==================*/
+
+
+
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: black;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 50%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 10px;
+}
+
+/*===============MAIN==================*/
+
+#main{
+    margin-top: 300px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+
+/*===============INFO-BOX==================*/
+
+    
+a.info-box{
+      text-decoration : none;
+      background      : rgba(255,255,255,.8);
+      width           : 90%;
+      height          :150px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 100px;
+      padding         : 10px; 
+     
+}
+
+    
+
+
+
+
+
+
+.info-box img{
+      height : 70px;
+      margin : 15px;
+      float  : left;
+}
+
+.info-box h2{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color: black;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   :#131313;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 54px;
+      height  :   71px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

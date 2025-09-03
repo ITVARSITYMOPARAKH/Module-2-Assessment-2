@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Pine City Mall</title>
+  <style>
+    /* Basic resets */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #000000; /* Black background */
+      color: #ffffff; /* Default text white */
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 2em;
+      color: #ffffff;
+    }
+
+    nav {
+      background-color: #111111;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #888888;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .container h2 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 30px;
+      font-size: 2em;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .info-box {
+      flex: 1 1 45%;
+      background-color: #111111;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .info-box h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .info-box p {
+      color: #cccccc;
+      margin-bottom: 5px;
+    }
+
+    .contact-form {
+      background-color: #111111;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      color: #ffffff;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #333;
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+      color: #888888;
+    }
+
+    .contact-form button {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: #ffffff;
+    }
+
+    .mall-image {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #111111;
+      color: #888888;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #333;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      .contact-info {
+        flex-direction: column;
+      }
+      .info-box {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pine City Mall</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="index.html">Map</a>
+    <a href="shops.html">Shops</a>
+    <a href="movies.html">Movies</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="container">
+    <h2>Contact Us</h2>
+
+    <img class="mall-image" src="images/mall-1.jpg" alt="Pine City Mall">
+
+    <div class="contact-info">
+      <div class="info-box">
+        <h3>Address</h3>
+        <p>123 Pine Street</p>
+        <p>Cityville, State 45678</p>
+      </div>
+      <div class="info-box">
+        <h3>Contact</h3>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Email: info@pinecitymall.com</p>
+        <p>Business Hours: Mon-Sun, 9am - 9pm</p>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h3 style="color:#ffffff; margin-bottom:15px;">Send Us a Message</h3>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Pine City Mall. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
